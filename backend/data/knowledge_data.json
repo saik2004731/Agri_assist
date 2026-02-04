@@ -1,0 +1,420 @@
+{
+  "diseases": [
+    {
+      "id": "1",
+      "disease_name": "Apple Scab",
+      "crop": "Apple",
+      "description": "A fungal disease that makes dark, rough spots on apple leaves and fruits.",
+      "causes": "Caused by a fungus that grows in cool and wet weather, especially on fallen old leaves.",
+      "symptoms": "Olive-green to black spots on leaves, rough scabby patches on apple skin, leaves may curl or drop early.",
+      "solution": "Remove and destroy fallen leaves, prune the tree for good air flow. Use organic copper or sulfur-based fungicide as advised by the local agriculture officer.",
+      "prevention": "Keep area under trees clean, avoid overhead watering, prune trees regularly, use disease-resistant varieties when possible.",
+      "pesticides": [
+        {
+          "name": "Organic copper fungicide (government-approved)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "disease_name": "Apple Black Rot",
+      "crop": "Apple",
+      "description": "A disease that causes dark brown leaf spots and rotten areas on apple fruit.",
+      "causes": "Caused by a fungus that survives on dead branches and mummified fruits left on the tree or ground.",
+      "symptoms": "Purple or brown leaf spots with dark centers, cankers on branches, fruits show black ring-like rot.",
+      "solution": "Prune and burn dead branches and old infected fruits, clean the orchard properly. Use organic copper-based spray if recommended locally.",
+      "prevention": "Remove all mummified fruits after harvest, keep trees healthy with proper manure and pruning, avoid injuries to bark.",
+      "pesticides": [
+        {
+          "name": "Organic copper oxychloride (as per state agriculture department)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "disease_name": "Apple Cedar Rust",
+      "crop": "Apple",
+      "description": "A disease that creates orange or yellow spots on apple leaves and can weaken the tree.",
+      "causes": "Caused by a rust fungus that moves between apple trees and certain juniper/cedar trees.",
+      "symptoms": "Bright yellow to orange spots on upper leaf surface, tube-like growths on lower leaf surface, early leaf fall.",
+      "solution": "Remove nearby wild juniper or cedar hosts if possible. Use organic sulfur or copper-based rust control as advised.",
+      "prevention": "Plant apples away from cedar or juniper, prune crowded branches to improve air movement, keep trees healthy with good organic manure.",
+      "pesticides": [
+        {
+          "name": "Wettable sulfur (organic-compatible) for rust control",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "disease_name": "Cherry Powdery Mildew",
+      "crop": "Cherry",
+      "description": "A white powdery growth on cherry leaves that can reduce fruit quality.",
+      "causes": "Caused by a fungus that likes warm, dry days with cool, humid nights.",
+      "symptoms": "White powder-like layer on leaves, twisted or curled leaves, reduced fruit size and sweetness.",
+      "solution": "Remove badly infected leaves, ensure good air flow in the canopy. Spray organic sulfur or neem-based product as recommended.",
+      "prevention": "Avoid overcrowded planting, prune trees to keep open canopy, avoid excess nitrogen fertiliser.",
+      "pesticides": [
+        {
+          "name": "Neem oil-based bio-fungicide (certified organic)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "disease_name": "Corn Gray Leaf Spot",
+      "crop": "Maize",
+      "description": "A leaf disease of maize that causes rectangular gray lesions and reduces yield.",
+      "causes": "Caused by a fungus that survives on infected crop residue and spreads in warm, humid weather.",
+      "symptoms": "Small brown spots that grow into long gray rectangular lesions between veins, leaves may dry early.",
+      "solution": "Use clean seed, destroy infected crop residue after harvest. In severe cases, use organic copper or bio-fungicide as advised.",
+      "prevention": "Follow crop rotation, avoid continuous maize on same field, use resistant varieties when available, maintain balanced organic nutrition.",
+      "pesticides": [
+        {
+          "name": "Trichoderma viride bio-fungicide (recommended by agriculture departments)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "disease_name": "Corn Common Rust",
+      "crop": "Maize",
+      "description": "A disease causing reddish-brown pustules on maize leaves.",
+      "causes": "Caused by a rust fungus that spreads quickly through wind-blown spores in moist conditions.",
+      "symptoms": "Small raised reddish-brown pustules on both sides of leaves, leaves may turn yellow and dry.",
+      "solution": "Grow recommended resistant varieties, keep fields well spaced for air flow. Use organic sulfur or copper formulations if recommended by local experts.",
+      "prevention": "Avoid late sowing, remove volunteer maize plants, maintain field hygiene and crop rotation.",
+      "pesticides": [
+        {
+          "name": "Wettable sulfur (organic-compatible) for rust management",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "disease_name": "Corn Northern Leaf Blight",
+      "crop": "Maize",
+      "description": "A serious leaf disease of maize that reduces grain fill.",
+      "causes": "Caused by a fungus that survives in infected residues and spreads in wet, cool conditions.",
+      "symptoms": "Long, cigar-shaped gray or tan lesions on leaves, premature leaf drying, poor grain filling.",
+      "solution": "Use clean, disease-free seed, remove infected residues by burning or deep ploughing. Use bio-fungicide like Trichoderma as per local guideline.",
+      "prevention": "Rotate maize with non-host crops, avoid dense planting, use recommended resistant hybrids.",
+      "pesticides": [
+        {
+          "name": "Trichoderma-based bio-fungicide for seed and soil",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "disease_name": "Grape Black Rot",
+      "crop": "Grape",
+      "description": "A disease that causes dark spots on grape leaves and shriveled black berries.",
+      "causes": "Caused by a fungus that survives in mummified berries and infected shoots left in the vineyard.",
+      "symptoms": "Brown leaf spots with dark edges, shriveled black fruits hanging on the vine, cankers on shoots.",
+      "solution": "Remove and destroy mummified berries and infected shoots, prune vines properly. Apply organic copper fungicide if suggested by experts.",
+      "prevention": "Maintain open canopy by pruning, avoid overhead irrigation, follow good sanitation after harvest.",
+      "pesticides": [
+        {
+          "name": "Organic copper fungicide (as per local grape advisory)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "disease_name": "Grape Esca (Black Measles)",
+      "crop": "Grape",
+      "description": "A trunk disease of grapevine that causes leaf scorch and dark streaks in wood.",
+      "causes": "Caused by a complex of wood-invading fungi entering through pruning wounds.",
+      "symptoms": "Tiger-stripe pattern on leaves, dried leaf edges, black streaks in wood, weak vines.",
+      "solution": "Avoid large pruning cuts, remove and destroy heavily infected vines. Use recommended trunk protection and organic wound sealants.",
+      "prevention": "Prune during dry weather, disinfect tools, maintain vine vigor with good organic manures.",
+      "pesticides": [
+        {
+          "name": "Organic wound sealant or paste (locally recommended)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "disease_name": "Grape Leaf Blight (Isariopsis Leaf Spot)",
+      "crop": "Grape",
+      "description": "A leaf disease that causes irregular brown patches and defoliation in grapes.",
+      "causes": "Caused by a fungus that spreads in warm and humid conditions.",
+      "symptoms": "Irregular brown spots on leaves, yellowing and early leaf fall, reduced bunch size.",
+      "solution": "Collect and destroy infected leaves, ensure good air circulation in vineyard. Use organic copper or bio-fungicide sprays if needed.",
+      "prevention": "Avoid overhead irrigation, prune properly, keep vineyard floor clean from leaf litter.",
+      "pesticides": [
+        {
+          "name": "Pseudomonas fluorescens bio-fungicide (recommended in organic programs)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "disease_name": "Citrus Greening (Huanglongbing)",
+      "crop": "Orange",
+      "description": "A serious bacterial disease that causes yellow shoots, misshapen fruits and tree decline.",
+      "causes": "Spread by a small insect (psyllid) that carries the bacteria from tree to tree.",
+      "symptoms": "Yellowing of leaves in patches, small lopsided fruits with bitter taste, thin canopy and decline.",
+      "solution": "Remove and destroy severely infected trees, control the insect vector using organic-approved sprays. Use disease-free nursery plants.",
+      "prevention": "Buy seedlings from certified nurseries, regularly monitor trees for symptoms, manage psyllids with neem-based formulations.",
+      "pesticides": [
+        {
+          "name": "Neem oil-based insecticide (approved for organic citrus)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "disease_name": "Peach Bacterial Spot",
+      "crop": "Peach",
+      "description": "A disease causing dark spots on peach leaves and fruits, leading to cracking.",
+      "causes": "Caused by bacteria that spread through splashing rain and wind.",
+      "symptoms": "Small dark spots on leaves with yellow halo, shot holes, rough spots and cracks on fruits.",
+      "solution": "Prune trees to improve airflow, remove badly infected twigs. Use copper-based bactericide compatible with organic standards as per advice.",
+      "prevention": "Avoid overhead irrigation, follow good field sanitation, use tolerant varieties if available.",
+      "pesticides": [
+        {
+          "name": "Copper hydroxide (used in many government recommendations, organic-compatible dose)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "disease_name": "Pepper Bacterial Spot",
+      "crop": "Bell Pepper",
+      "description": "A bacterial disease of capsicum that causes leaf spots and fruit spots.",
+      "causes": "Spread by contaminated seed, tools, splashing water and wind-driven rain.",
+      "symptoms": "Small water-soaked spots on leaves that turn brown, shot holes, raised scabby spots on fruits.",
+      "solution": "Use disease-free seed, remove infected plants early, avoid working in wet fields. Copper-based bactericides compatible with organic use can be applied on advice.",
+      "prevention": "Use crop rotation, avoid overhead watering, disinfect seed or use certified seed.",
+      "pesticides": [
+        {
+          "name": "Copper oxychloride (used in many agricultural schemes, organic-compatible dose)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "disease_name": "Potato Early Blight",
+      "crop": "Potato",
+      "description": "A common potato leaf disease that produces brown concentric spots.",
+      "causes": "Caused by a fungus that survives in crop residues and soil.",
+      "symptoms": "Brown circular spots with rings on older leaves, yellow area around spots, defoliation in severe cases.",
+      "solution": "Remove infected leaves, avoid waterlogging, maintain proper spacing. Spray organic copper or bio-fungicide as per local recommendation.",
+      "prevention": "Rotate potato with non-host crops, use healthy seed tubers, apply well-decomposed organic manure.",
+      "pesticides": [
+        {
+          "name": "Trichoderma-based bio-fungicide for soil and foliar use",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "disease_name": "Potato Late Blight",
+      "crop": "Potato",
+      "description": "A fast-spreading disease that causes dark blights on leaves and tuber rot.",
+      "causes": "Caused by a water mold that spreads quickly in cool, wet weather.",
+      "symptoms": "Water-soaked dark patches on leaves, white fungal growth under leaves in humid weather, tubers show brown rotten areas.",
+      "solution": "Destroy heavily infected plants, avoid irrigation in late evening. Use copper-based fungicides allowed in organic farming under expert guidance.",
+      "prevention": "Plant early where possible, ensure good drainage, use resistant varieties, avoid thick canopy from excess nitrogen.",
+      "pesticides": [
+        {
+          "name": "Copper hydroxide/copper oxychloride (as per government potato advisory)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "disease_name": "Squash Powdery Mildew",
+      "crop": "Squash",
+      "description": "A white powdery growth on squash leaves that reduces plant vigor.",
+      "causes": "Caused by fungi that thrive in warm, dry weather with high humidity at night.",
+      "symptoms": "White powder-like spots on upper surface of leaves, leaves may turn yellow and dry.",
+      "solution": "Remove infected leaves, improve air movement. Spray neem oil or sulfur-based organic fungicide as recommended.",
+      "prevention": "Avoid dense planting, keep plants well-spaced, avoid overuse of nitrogen.",
+      "pesticides": [
+        {
+          "name": "Neem oil-based fungicide (commonly promoted in organic programs)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "disease_name": "Strawberry Leaf Scorch",
+      "crop": "Strawberry",
+      "description": "A leaf disease of strawberry that causes reddish-brown spots and leaf drying.",
+      "causes": "Caused by a fungus that survives on infected leaves and spreads with splashing water.",
+      "symptoms": "Small purple spots that turn brown, leaves look burned at edges, reduced plant vigor.",
+      "solution": "Remove infected leaves, avoid overhead irrigation. Use organic copper or bio-fungicide if disease pressure is high.",
+      "prevention": "Use clean planting material, keep field free of weeds and old leaves, maintain proper spacing.",
+      "pesticides": [
+        {
+          "name": "Pseudomonas fluorescens bio-fungicide for foliar spray",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "disease_name": "Tomato Bacterial Spot",
+      "crop": "Tomato",
+      "description": "A bacterial disease that causes small dark spots on tomato leaves and fruits.",
+      "causes": "Spread by infected seed, tools, splashing rain and irrigation water.",
+      "symptoms": "Small brown to black spots on leaves, shot holes, rough spots on green fruits.",
+      "solution": "Use certified seed, remove diseased plants, avoid touching plants when wet. Use copper-based bactericide compatible with organic farming as advised.",
+      "prevention": "Rotate crops, avoid overhead irrigation, practice good field sanitation.",
+      "pesticides": [
+        {
+          "name": "Copper hydroxide/copper oxychloride (use as per tomato advisory)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "disease_name": "Tomato Early Blight",
+      "crop": "Tomato",
+      "description": "A common tomato disease that makes brown ringed spots on leaves.",
+      "causes": "Caused by a fungus surviving in soil and plant residues.",
+      "symptoms": "Brown spots with concentric rings on older leaves, yellow area around spots, defoliation, fruit spots near stem end.",
+      "solution": "Remove lower infected leaves, stake plants to keep foliage dry, avoid overhead watering. Use organic copper or Trichoderma-based fungicide as needed.",
+      "prevention": "Follow crop rotation, use healthy seedlings, apply well-rotted farmyard manure.",
+      "pesticides": [
+        {
+          "name": "Trichoderma harzianum bio-fungicide (seedling and soil treatment)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "disease_name": "Tomato Late Blight",
+      "crop": "Tomato",
+      "description": "A serious disease of tomato causing water-soaked dark lesions and fruit rot.",
+      "causes": "Caused by a water mold that spreads in cool, wet and cloudy conditions.",
+      "symptoms": "Large dark patches on leaves and stems, white growth at lesion edges in humidity, brown firm rot on fruits.",
+      "solution": "Remove and destroy infected plants and fruits, improve drainage, avoid dense planting. Use copper-based fungicide allowed under organic norms as per advice.",
+      "prevention": "Avoid overhead irrigation, plant with good spacing, use resistant varieties where available.",
+      "pesticides": [
+        {
+          "name": "Copper oxychloride/copper hydroxide (as per tomato late blight advisory)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "disease_name": "Tomato Leaf Mold",
+      "crop": "Tomato",
+      "description": "A disease that causes yellow patches on top of leaves and olive-green mold below.",
+      "causes": "Caused by a fungus that spreads in high humidity, especially in protected structures.",
+      "symptoms": "Yellow spots on upper leaf surface, olive-green fuzzy growth below, leaf curling and drop.",
+      "solution": "Reduce humidity by ventilation, avoid overhead watering, remove infected leaves. Use organic-approved fungicide like copper or bio-fungicide as recommended.",
+      "prevention": "Maintain proper spacing, improve air circulation, avoid frequent leaf wetting.",
+      "pesticides": [
+        {
+          "name": "Bio-fungicide (Trichoderma/Pseudomonas) foliar spray",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "disease_name": "Tomato Septoria Leaf Spot",
+      "crop": "Tomato",
+      "description": "A disease that causes many small spots on leaves and can defoliate plants.",
+      "causes": "Caused by a fungus that survives on old tomato debris and spreads with water.",
+      "symptoms": "Many tiny circular spots with dark borders and light centers on leaves, yellowing and dropping of leaves.",
+      "solution": "Remove infected leaves, keep lower foliage dry, mulch soil to reduce splash. Use organic copper fungicide if disease is severe.",
+      "prevention": "Rotate crops, avoid planting tomatoes near old debris, use drip irrigation instead of overhead.",
+      "pesticides": [
+        {
+          "name": "Copper-based fungicide (organic-compatible dose under guidance)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "disease_name": "Tomato Spider Mite (Two-Spotted Spider Mite)",
+      "crop": "Tomato",
+      "description": "A pest problem where tiny mites suck sap and cause yellow, dry leaves.",
+      "causes": "Caused by sap-sucking mites that increase in hot and dry weather.",
+      "symptoms": "Very small yellow spots on leaves, fine webbing on underside, leaves turn yellow and dry.",
+      "solution": "Spray water on underside of leaves to wash mites, remove heavily infested leaves. Use neem oil-based miticide suitable for organic farming.",
+      "prevention": "Avoid dusty conditions, keep plants well watered (not waterlogged), encourage natural enemies by avoiding harsh chemicals.",
+      "pesticides": [
+        {
+          "name": "Neem oil-based bio-miticide (used in many organic pest programs)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "disease_name": "Tomato Target Spot",
+      "crop": "Tomato",
+      "description": "A fungal disease that makes circular spots with concentric rings on tomato leaves.",
+      "causes": "Caused by a fungus that spreads through splashing water and infected debris.",
+      "symptoms": "Round brown spots with rings on leaves and fruits, yellow area around spots, leaf drop.",
+      "solution": "Remove infected leaves and fruits, avoid overhead irrigation. Use bio-fungicide or organic copper products as per local advisory.",
+      "prevention": "Practice crop rotation, keep field clean of debris, maintain proper spacing and pruning.",
+      "pesticides": [
+        {
+          "name": "Trichoderma-based bio-fungicide (recommended for tomato foliar diseases)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "disease_name": "Tomato Yellow Leaf Curl Virus",
+      "crop": "Tomato",
+      "description": "A viral disease that causes yellow, curled leaves and very low yield.",
+      "causes": "Spread mainly by whitefly insects feeding on infected and healthy plants.",
+      "symptoms": "Yellowing of young leaves, leaf curling upwards, stunted plants, very few and small fruits.",
+      "solution": "Remove and destroy infected plants early, control whiteflies by using yellow sticky traps and neem-based sprays. Use virus-tolerant varieties where available.",
+      "prevention": "Use insect-proof nets for nurseries, control whiteflies, avoid planting tomatoes near old infected crops.",
+      "pesticides": [
+        {
+          "name": "Neem oil-based insecticide (for whitefly management)",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "disease_name": "Tomato Mosaic Virus",
+      "crop": "Tomato",
+      "description": "A viral disease that gives mosaic light and dark patterns on leaves.",
+      "causes": "Spread by contact, tools, hands, and sometimes by seed.",
+      "symptoms": "Mosaic light and dark green patterns on leaves, leaf distortion, reduced plant growth and yield.",
+      "solution": "Remove infected plants, wash hands and tools after handling plants, avoid tobacco use in fields. There is no direct spray for virus, focus on hygiene and seed health.",
+      "prevention": "Use certified virus-free seed, maintain strict field hygiene, disinfect tools regularly.",
+      "pesticides": [
+        {
+          "name": "Neem oil or soap solution for vector management if needed",
+          "url": "#"
+        }
+      ]
+    }
+  ]
+}
