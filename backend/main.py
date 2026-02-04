@@ -26,7 +26,7 @@ app.add_middleware(
 # Uses env variable if set, else your existing key string
 GEMINI_API_KEY = os.getenv(
     "GEMINI_API_KEY",
-    "AIzaSyDx0U1DxzdgWwjjgyl_qFtQ5Z6RMZnnriw"  # your current fallback
+    "---------"  # your current fallback
 )
 
 if GEMINI_API_KEY != "YOUR_API_KEY":
